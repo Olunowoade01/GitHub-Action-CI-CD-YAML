@@ -1,0 +1,22 @@
+{
+  "name": "github-action-ci-cd-yaml",
+  "version": "1.0.0",
+  "description": "GitHub Action and CI/CD Course Project-YAML",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Build step\"",
+    "test": "echo \"Test step\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olunowoade01/GitHub-Action-CI-CD-YAML.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Olunowoade01/GitHub-Action-CI-CD-YAML/issues"
+  },
+  "homepage": "https://github.com/Olunowoade01/GitHub-Action-CI-CD-YAML#readme"
+}
