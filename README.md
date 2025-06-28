@@ -57,7 +57,7 @@ GitHub Action and CI/CD Course Project - YAML
  
 
  # Project Summary 
- # Project Summary
+
 
 This project provides a practical guide to implementing CI/CD for a Node.js application using GitHub Actions and YAML. By following each step, i learn how to automate my development workflow—from repository setup, through workflow creation, to troubleshooting and successful build verification.  
 With this setup, every code change is automatically built and tested, helping me catch errors early and maintain high code quality.  

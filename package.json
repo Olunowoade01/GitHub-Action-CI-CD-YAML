@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/Olunowoade01/GitHub-Action-CI-CD-YAML/issues"
   },
-  "homepage": "https://github.com/Olunowoade01/GitHub-Action-CI-CD-YAML#readme"
+  "homepage": "https://github.com/Olunowoade01/GitHub-Action-CI-CD-YAML#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "eslint": "^9.30.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.2.0"
+  }
 }
