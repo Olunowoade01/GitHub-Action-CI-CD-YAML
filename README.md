@@ -56,9 +56,53 @@ GitHub Action and CI/CD Course Project - YAML
   ![7](./img/6.png)  
  
 
- # Project Summary 
+# Project Topic
+
+**Implementing Continuous Integration and Code Quality Checks for a Node.js Application using GitHub Actions**
+
+This project demonstrates how to automate the build, test, and code quality analysis process for a Node.js application using GitHub Actions. The workflow includes matrix builds, dependency caching, and linting with ESLint to ensure code quality and compatibility across multiple Node.js versions.
 
 
-This project provides a practical guide to implementing CI/CD for a Node.js application using GitHub Actions and YAML. By following each step, i learn how to automate my development workflow—from repository setup, through workflow creation, to troubleshooting and successful build verification.  
-With this setup, every code change is automatically built and tested, helping me catch errors early and maintain high code quality.  
-The visual steps and explanations make it easy for anyone to understand and replicate a modern CI/CD pipeline for their own projects.
+# Step 8: I Update Workflow for CI/CD
+
+- I updated my `main.yml` to include:
+  - Matrix builds (test on multiple Node.js versions)
+  - Caching node modules (for faster builds)
+  - Linting/code quality check (using ESLint)
+
+  ![8](./img/7%20con.png)
+
+# Step 9: I Install and Configure ESLint
+
+- I installed ESLint and initialized the config using:
+  `
+  npm install eslint --save-dev
+  npx eslint --init
+  `
+  ![9](./img/8%20con.png)
+
+# Step 10: The ESLint Config Success
+
+- The `eslint.config.mjs` file was successfully created and I updated the script inside to make it work for my project.
+
+  ![10](./img/9%20con.png)
+  ![10b](./img/11.png)
+
+# Step 11: Final Check
+
+- After checking all the scripts and pushing, my GitHub Actions workflow is working properly.
+
+![11](./img/10%20con.png)
+
+
+ # Project Summary
+
+This project provides a practical guide to implementing CI/CD and automated code quality checks for a Node.js application using GitHub Actions and YAML. By following each step, I learned how to automate my development workflow—from repository setup, through workflow creation, to troubleshooting and successful build verification.
+
+With this setup:
+- Every code change is automatically built, linted, and tested across multiple Node.js versions.
+- Dependency caching speeds up the workflow.
+- ESLint is integrated to enforce code quality standards.
+- Errors are caught early, and the workflow status is visible in the GitHub Actions tab.
+
+The visual steps and explanations make it easy for anyone to understand and replicate a modern CI/CD pipeline with code quality checks for their own projects.
